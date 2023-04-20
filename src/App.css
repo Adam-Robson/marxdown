@@ -1,0 +1,57 @@
+
+  :root { 
+    --arylide-yellow: hsla(53, 77%, 63%, 1);
+    --platinum: hsla(0, 0%, 90%, 1);
+    --misty-rose: hsla(17, 94%, 94%, 1);
+    --beige: hsla(80, 41%, 89%, 1);
+    --cinereous: hsla(13, 13%, 65%, 1);
+    --apricot: hsla(21, 85%, 87%, 1);
+    --celeste: hsla(178, 94%, 87%, 1);
+    --beige-2: hsla(71, 33%, 83%, 1);
+    --ash-gray: hsla(82, 19%, 72%, 1);
+    --rufous: hsla(11, 91%, 34%, 1);
+    --salmon: hsla(12, 100%, 72%, 1);
+    --jet: hsla(240, 1%, 23%, 1);
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url('./assets/canvas.png');
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
