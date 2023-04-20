@@ -22,11 +22,6 @@
   color-scheme: light dark;
   color: var(--misty-rose);
   background-color: #var(--jet);
-  background-image: url('./assets/canvas.png');
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +34,7 @@ html, body {
   box-sizing: border-box;
   font-family: 'Assistant', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.25em;
-  background-color: var(--apricot);
+  background-color: var(--celeste);
   color: var(--jet);
   overflow: none;
   min-width: 320px;
@@ -50,7 +45,7 @@ html, body {
 
 a {
   font-weight: 500;
-  color: #var(--celeste);
+  color: #var(--ash-gray);
   text-decoration: inherit;
 }
 a:hover {
@@ -79,7 +74,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #var(--celeste);;
+  border-color: #var(--ash-gray);;
 }
 button:focus,
 button:focus-visible {
@@ -88,11 +83,11 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: var(--misty-rose);
+    color: #var(--jet);
+    background-color: var(--celeste);
   }
   a:hover {
-    color: var(--jet);
+    color: var(--arylide-yellow);
   }
   button {
     background-color: var(--misty-rose);
@@ -123,7 +118,7 @@ button:focus-visible {
 }
 
 .subtitle {
-  color: var(--cinereous);
+  color: var(--jet);
 }
 
 .textarea {
@@ -133,7 +128,7 @@ button:focus-visible {
 
 .preview-wrap {
   font-weight: 300;
-  background-color: var(--misty-rose);
+  background-color: var(--apricot);
   flex: 1;
   height: 75vh;
   width: 60%;
