@@ -34,20 +34,24 @@ export default function Editor() {
 
   return (
     <>
-      <section>
+      <section className="editor-wrap">
         <Header
+          className="header"
           title="Editor"
           subtitle={
             `${words} words ${characters} characters` }
         />
 
         <textarea
-          className='editor'
+          className="editor"
           value={ markdown }
           onChange={ updateMarkdown }
         />
 
-        <button onClick={ downloadNewFile }>download</button>
+        <button
+          className="download"
+          onClick={ downloadNewFile }
+        >download</button>
 
       </section>
     </>
