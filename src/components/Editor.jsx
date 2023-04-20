@@ -34,16 +34,15 @@ export default function Editor() {
 
   return (
     <>
-      <section className="editor-wrap">
+      <section className="editor-wrap section">
         <Header
-          className="header"
           title="Editor"
           subtitle={
-            `${words} words ${characters} characters` }
+            `${words} words | ${characters} characters` }
         />
 
         <textarea
-          className="editor"
+          className="textarea"
           value={ markdown }
           onChange={ updateMarkdown }
         />

@@ -9,10 +9,12 @@ export default function Preview() {
 
   return (
     <>
+      <section className="preview-wrap">
       <Header title="Preview" />
       <div className="preview">
         <ReactMarkdown>{ markdown }</ReactMarkdown>
-      </div>
+        </div>
+      </section>
     </>
   );
 }

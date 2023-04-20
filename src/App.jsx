@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <section>
+      <section className="both">
         <Editor />
         <Preview />
       </section>
